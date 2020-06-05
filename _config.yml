@@ -28,7 +28,7 @@ twitter_username: 1cadumagalhaes
 github_username:  magalhaescarlos
 
 # Build settings
-theme: minima
+theme: jekyll-theme-slate
 plugins:
   - jekyll-feed
 
