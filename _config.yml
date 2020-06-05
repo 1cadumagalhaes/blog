@@ -22,8 +22,8 @@ title: magalhaescarlos
 email: magalhaescarlosedu@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Tentativa de blog com jekyll pra github pages.
-baseurl: "/blog" # the subpath of your site, e.g. /blog
-url: "magalhaescarlos.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 1cadumagalhaes
 github_username:  magalhaescarlos
 
