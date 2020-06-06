@@ -2,7 +2,7 @@
 layout: post
 title:  "Bem vindo ao meu blog!"
 date:   2020-06-05 22:40:24 -0300
-permalink: /blog/:categories/:year/:title
+permalink: /:categories/:year/:title
 category: 
 image: /assets/imagem_1.jpg
 ---

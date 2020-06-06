@@ -36,7 +36,7 @@ Sou um nerd estudante de Microeletrônica, amante de ciências e apaixonado por 
       {% for post in site.posts %}
         <br>
         <li>
-          <a href="{{ post.url }}">{{ post.title }}</a>
+          <a href="{{ post.url | replace_first: '/', '/blog/'}}">{{ post.title }}</a>
         </li>
       {% endfor %}
     </ul>
@@ -50,7 +50,7 @@ Sou um nerd estudante de Microeletrônica, amante de ciências e apaixonado por 
       {% for category in site.categories %} 
       {% for post in category[1] %}
         <li>
-          <a href="{{ post.url }}">{{ post.title }}</a>
+          <a href="{{ post.url | replace_first: '/', '/blog/'}}">{{ post.title }}</a>
           {{ post.excerpt }}
         </li>
       {% endfor %}

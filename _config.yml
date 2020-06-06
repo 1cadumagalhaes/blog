@@ -23,10 +23,10 @@ email: magalhaescarlosedu@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Personal blog
 baseurl: "/blog" # the subpath of your site, e.g. /blog
-url: "https://magalhaescarlos.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 1cadumagalhaes
 github_username:  magalhaescarlos
-permalink: /blog/:categories/:year/:title
+permalink: /:categories/:year/:title
 # Build settings
 theme: jekyll-theme-slate
 plugins:
