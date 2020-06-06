@@ -1,0 +1,76 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+#header_wrap, #footer_wrap{
+    background: #01579b;
+}
+
+.inner{
+    max-width: 900px;
+}
+
+body, h1, h2, h3, p {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    background: none;
+    text-align: justify;
+
+}
+
+body {
+    background: #f2f2f2;
+}
+
+#header_wrap, #footer_wrap, #main_content_wrap{
+    border: none;
+}
+
+.tabs .tab a:hover, .tabs .tab a.active{
+    background-color: transparent;
+    color: #01579b !important; 
+}
+
+.tabs .tab a {
+    color: #01579c !important;
+}
+
+.tabs .indicator {
+    background-color: #01579c !important;
+}
+
+#image-wrapper{
+    top: 0;
+    left: 0;
+    height: auto;
+    position: relative;
+    width: 100%;
+ }
+
+ #image-wraper > img{
+    max-width: none;
+    margin: 0 ;
+    object-fit: cover;
+    padding: 0;
+ }
+
+ #header_wrap .inner {
+    padding: 20px 10px 15px 10px;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%; /* needed for container min-height */
+}
+div#main_content_wrap {
+    position: relative; /* needed for footer positioning*/
+    height: auto !important; /* real browsers */
+    min-height: 71%; /* real browsers */
+  }
+
+#footer_wrap{
+    position: absolute;
+    //bottom: 0;
+}

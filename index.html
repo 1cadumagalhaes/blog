@@ -1,0 +1,63 @@
+---
+layout: default
+title: magalhaescarlos
+---
+
+<h1> 
+  Olá, eu sou o Cadu
+ </h1>
+
+ <p>
+  UX/UI Designer, Desenvolvedor, Maker e Engenheiro de dados.
+ </p>
+<p>
+Sou um nerd estudante de Microeletrônica, amante de ciências e apaixonado por desafios. Por isso sou participante ativo de hackathons, onde atuo como dev e como ux. No (pouco) tempo livre eu desenvolvo, estudo, leio e jogo videogame.
+</p>
+
+<br>
+
+<div class="row">
+  <div class="col s12" style="padding:0;">
+    <ul class="tabs">     
+      <li class="tab col s3"><a href="#test0"> Todos os posts</a></li>
+      {% assign i = 0 %}
+  
+      {% for category in site.categories %} 
+      {% assign i = i | plus: 1 %}
+
+      <li class="tab col s3"><a href="#test{{ i }}"> {{ category[0] }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+
+
+  <div id="test0" class="col s12">
+    <ul>
+      {% for post in site.posts %}
+        <br>
+        <li>
+          <a href="{{ post.url }}">{{ post.title }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+  
+  <div id="test{{ i }}" class="col s12">
+    <br>
+    <ul>
+      {% assign i = 0 %}
+  
+      {% for category in site.categories %} 
+      {% for post in category[1] %}
+        <li>
+          <a href="{{ post.url }}">{{ post.title }}</a>
+          {{ post.excerpt }}
+        </li>
+      {% endfor %}
+      {% endfor %}
+    </ul>
+  </div>
+
+</div>
+
+
