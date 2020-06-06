@@ -87,3 +87,13 @@ div#main_content_wrap {
     font-size: 40px;
     font-weight: normal;
 }
+
+
+@media screen and (max-width: 992px) {
+    #project_tagline {
+        display: inherit;
+        position: inherit;
+        margin: auto;
+    }
+  }
+
