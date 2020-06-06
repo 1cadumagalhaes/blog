@@ -91,8 +91,8 @@ div#main_content_wrap {
 
 @media screen and (max-width: 992px) {
     #project_tagline {
-        display: inherit;
-        position: inherit;
+        display: inherit!important;
+        position: inherit!important;
         margin: auto;
     }
   }
