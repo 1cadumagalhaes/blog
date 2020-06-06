@@ -2,18 +2,20 @@
 <html lang="{{ site.lang | default: "en-US" }}">
 
 <head>
+
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,maximum-scale=2">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="https://kit.fontawesome.com/1ebd89af92.js"></script>
-    <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" type="text/css" media="screen"
+      href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="icon" href="/blog/assets/icon_black_shadow.png">
-{% seo %}
+    {% seo %}
 
-    
+
   </head>
 
 <body>
@@ -29,8 +31,10 @@
 
     </header>
     <nav class="grey lighten-1" role="navigation">
-      <div class="nav-wrapper container"><a id="logo-container" href="https://magalhaescarlos.github.io"
-          class="brand-logo"><img src="/blog/assets/icon_white_shadow.png" alt="carlos magalhaes logo"></a>
+      <div class="nav-wrapper container">
+        <a id="logo-container" href="https://magalhaescarlos.github.io" class="brand-logo">
+          <img src="/blog/assets/icon_white_shadow.png" alt="carlos magalhaes logo" id="menu_logo">
+        </a>
         <ul class="right hide-on-med-and-down">
           <li class="active"><a href="https://magalhaescarlos.github.io/blog">Blog</a></li>
         </ul>
@@ -54,7 +58,8 @@
 
     {%if page.image %}
     <div id="image-wraper">
-      <img class="" src="{{ page.image | replace_first: '/', '/blog/' }}" alt="{{ page.alt }}" width="100%" height="400px">
+      <img class="" src="{{ page.image | replace_first: '/', '/blog/' }}" alt="{{ page.alt }}" width="100%"
+        height="400px">
     </div>
 
     {% endif %}
@@ -95,19 +100,19 @@
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   <script>
-    $(document).ready(function(){
-      
-        $('.sidenav').sidenav();
-        $('.fixed-action-btn').floatingActionButton();
-      });
+    $(document).ready(function () {
+
+      $('.sidenav').sidenav();
+      $('.fixed-action-btn').floatingActionButton();
+    });
   </script>
   {% if site.google_analytics %}
   <script>
     (function (i, s, o, g, r, a, m) {
-    i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
-      (i[r].q = i[r].q || []).push(arguments)
-    }, i[r].l = 1 * new Date(); a = s.createElement(o),
-      m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+      i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
     })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
     ga('create', '{{ site.google_analytics }}', 'auto');
     ga('send', 'pageview');
