@@ -5,6 +5,8 @@
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,maximum-scale=2">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1ebd89af92.js"></script>
     <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
@@ -61,6 +63,22 @@
         <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
       </footer>
     </div>
+    <div class="fixed-action-btn">
+      <a class="btn-floating btn-large blue-grey">
+        <i class="large material-icons">email</i>
+      </a>
+  
+      <ul>
+        <li><a class=" btn-floating  red accent-2" href="https://instagram.com/magalhaescarlosedu" target="_blank"> <i
+              class="fab fa-instagram"></i> </a></li>
+        <li><a class=" btn-floating blue" href="https://twitter.com/1cadumagalhaes/" target="_blank"> <i
+              class="fab fa-twitter-square"></i> </a></li>
+        <li><a class=" btn-floating deep-purple accent-1" href="https://github.com/magalhaescarlos" target="_blank">
+            <i class="fab fa-github"></i> </a></li>
+        <li><a class=" btn-floating blue" href="https://linkedin.com/in/carlosedum/" target="_blank"> <i
+              class="fab fa-linkedin"></i> </a></li>
+      </ul>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
@@ -68,6 +86,8 @@
       $(document).ready(function(){
           console.log('initializing tabs')
           $('.tabs').tabs();
+          $('.sidenav').sidenav();
+          $('.fixed-action-btn').floatingActionButton();
         });
     </script>
     {% if site.google_analytics %}
