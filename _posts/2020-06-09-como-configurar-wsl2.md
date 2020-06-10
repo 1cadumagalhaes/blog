@@ -6,7 +6,7 @@ permalink: /:categories/:year/:title
 categories: tutorial windows
 ---
 
-No final de Maio foi lançada a versão 2004 do Windows 10, e uma das novidades mais esperadas - para os desenvolvedores, pelo menos - é o lançamento da versão 2 do Windows Subsystem for Linux (WSL). O WSL 2 trás melhorias de performance e uma melhor integração com o sistema, além de funcionar de forma mais próxima do linux real, por possuir um kernel de verdade.
+No final de Maio foi lançada a versão 2004 do Windows 10, e uma das novidades mais esperadas - para os desenvolvedores, pelo menos - é o lançamento da versão 2 do Windows Subsystem for Linux (WSL). O WSL 2 traz melhorias de performance e uma melhor integração com o sistema, além de funcionar de forma mais próxima do linux real, por possuir um kernel de verdade.
 
 O WSL 2 foi anunciado em Maio de 2019, introduzindo mudanças importantes, como a utilização de um kernel de Linux real. Dentre as promessas, estavam uma velocidade consideravelmente maior na execução de comandos, além de melhorar a instalação de pacotes, compilação de projetos, visualização de arquivos e várias outras coisas. Tudo isso em comparação com a primeira versão do WSL, que foi lançada em 2016.
 
@@ -36,9 +36,9 @@ Se quiser ter um terminal igual a esse meu, basta seguir o tutorial até o final
 ## 1. Configuração do WSL 2
 
 
-Para habilitar o WSL 2, basta executar o powershell como administrador (você pode pesquiser powershell no menu, e selecionar "Executar como Administrador) e inserir os seguintes comandos:
+Para habilitar o WSL 2, basta executar o powershell como administrador (você pode pesquisar powershell no menu, e selecionar "Executar como Administrador) e inserir os seguintes comandos:
 
-Habilitar o recurso doWSL, caso ainda não tenha
+Habilitar o recurso do WSL, caso ainda não tenha
 
 ```powershell
 dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
