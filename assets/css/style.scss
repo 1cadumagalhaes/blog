@@ -203,3 +203,8 @@ pre.highlight {
 ul {
   list-style-type: square!important;
 }
+
+ul:not(.browser-default)>li, ul > li {
+  list-style-type: square;
+  margin-left: 3em;
+}
