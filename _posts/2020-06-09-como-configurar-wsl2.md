@@ -6,10 +6,7 @@ permalink: /:categories/:year/:title
 category: tutorial windows
 ---
 
-
-# Como configurar o windows para desenvolvimento com WSL 2
-
-No final de Maio, foi lançada a versão 2004 do Windows 10, e uma das novidades mais esperadas - para os desenvolvedores, pelo menos - é o lançamento da versão 2 do Windows Subsystem for Linux (WSL).
+No final de Maio foi lançada a versão 2004 do Windows 10, e uma das novidades mais esperadas - para os desenvolvedores, pelo menos - é o lançamento da versão 2 do Windows Subsystem for Linux (WSL). O WSL 2 trás melhorias de performance e uma melhor integração com o sistema, além de funcionar de forma mais próxima do linux real, por possuir um kernel de verdade.
 
 O WSL 2 foi anunciado em Maio de 2019, introduzindo mudanças importantes, como a utilização de um kernel de Linux real. Dentre as promessas, estavam uma velocidade consideravelmente maior na execução de comandos, além de melhorar a instalação de pacotes, compilação de projetos, visualização de arquivos e várias outras coisas. Tudo isso em comparação com a primeira versão do WSL, que foi lançada em 2016.
 
