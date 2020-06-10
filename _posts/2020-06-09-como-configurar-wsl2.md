@@ -35,17 +35,21 @@ Se quiser ter um terminal igual a esse meu, basta seguir o tutorial até o final
 
 ## 1. Configuração do WSL 2
 
+
 Para habilitar o WSL 2, basta executar o powershell como administrador (você pode pesquiser powershell no menu, e selecionar "Executar como Administrador) e inserir os seguintes comandos:
 
 Habilitar o recurso doWSL, caso ainda não tenha
+
 ```powershell
 dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
 ```
+{: #code-example-1}
 
 Habilitar a Plataforma de máquina virtual
 ```powershell
-`dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart`
+dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
 ```
+{: #code-example-2}
 
 **Reinicie o computador** para concluir a instalação.
 
@@ -53,6 +57,7 @@ Definir o WSL 2 como a versão padrão
 ```powershell
 wsl --set-default-version 2
 ```
+{: #code-example-3}
 
 Para solução de problemas, consultar a documentação: 
 - [Como solucionar problemas de instalação](https://docs.microsoft.com/pt-br/windows/wsl/install-win10#troubleshooting-installation)
@@ -93,31 +98,34 @@ wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
 echo 'export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm' >> .bashrc && source .bashrc
 nvm install --lts
-
 ```
-
+{: #code-example-4}
 Passo a passo:
 
 1. Desabilitar a mensagem de "Bem vindo" da distro. 
    ```shell 
    touch $HOME/.hushlogin
    ```
+    {: #code-example-5}
 
 2. Atualizar os pacotes instalados.
     ```shell
     sudo apt update && sudo apt upgrade
     ```
-   
+    {: #code-example-6}
+
 3. Garantir a instalação do git, instalar o pip para python 3 e acrescentar o alias `python` para executar.
     ```shell
     sudo apt install git python3-pip -y && echo "alias python=python3" >> .bashrc && source .bashrc
     ```
+    {: #code-example-7}
 
 4. Baixar o [Node Version Manager (nvm)](https://github.com/nvm-sh/nvm). NVM é um gerenciador de versões de node, que facilita a instalação e manutenção das versões do node e do npm.
 
    ```shell
    wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
    ```
+   {: #code-example-8}
 
 
 5. Adicionar as dependências do nvm no arquivo de perfil do terminal, para poder executar os comandos.
@@ -126,12 +134,14 @@ Passo a passo:
     echo 'export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
     [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm' >> .bashrc` && source .bashrc
     ```
+    {: #code-example-9}
      
 
 6. Usar o nvm para instalar a última versão estável do node.
    ```shell 
    nvm install --lts
    ```
+   {: #code-example-10}
    Para mais detalhes sobre como instalar outras versões, basta consultar a [página oficial no github]((https://github.com/nvm-sh/nvm)).
 
 
@@ -143,6 +153,7 @@ Para instalar no ubuntu, basta executar:
 ```shell
 sudo apt-get install zsh
 ```
+{: #code-example-11}
 
 Após instalar, deve aparecer uma confirmação se você deseja trocar o padrão do seu sistema para o zsh. Caso não apareça, basta executar `chsh -s /usr/bin/zsh`. 
 
@@ -159,6 +170,7 @@ echo 'export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm' >> .zshrc
 
 ```
+{: #code-example-12}
 
 Isso serve para instalar o [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) - um framework gerenciador para as configurações do zsh - e replicar as configurações do python e nvm para o arquivo fonte do zsh (.zshrc). 
 
@@ -197,6 +209,7 @@ Para isso:
         "source": "Windows.Terminal.Wsl"
     }
    ```
+   {: #code-example-13}
 4. Altere esse objeto para acrescentar a fonte Fira Code:
     ```json
     {
@@ -207,6 +220,7 @@ Para isso:
         "fontFace": "Fira Code"
     }
    ```
+   {: #code-example-14}
 5. Copie o valor da chave "guid", que é um código alfanumérico entre chaves.
 6. Vá ao início do arquivo, na chave "defaultProfile". Cole o valor da chave guid do linux no lugar do código que já está ali. Por exemplo:
     ```json
@@ -214,6 +228,7 @@ Para isso:
         "defaultProfile": {código}
     }
     ```
+    {: #code-example-15}
 7. Salve as configurações (Ctrl+s), feche o terminal e abra novamente.
 
 Agora o seu terminal deve estar igual ao meu!
