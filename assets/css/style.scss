@@ -209,7 +209,11 @@ ul:not(.browser-default)>li, ul > li {
   margin-left: 3em;
 }
 
-nav ul:not(.browser-default)>li,
-nav ul>li {
+nav ul:not(.browser-default)>li {
  list-style-type:none !important;
+  margin-left: 0;
+}
+.fixed-action-btn > ul:not(.browser-default) > li{
+    list-style-type: none !important;
+  margin-left: 0;
 }
