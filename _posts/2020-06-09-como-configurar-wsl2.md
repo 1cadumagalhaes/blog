@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Como configurar o windows para desenvolvimento com WSL 2"
-date:   2020-06-08 19:00:00 -0300
+date:   2020-06-09 19:00:00 -0300
 permalink: /:categories/:year/:title
 category: tutorial windows
 ---
@@ -139,7 +139,7 @@ Passo a passo:
 
 
 
-## 4. Configuração do zsh
+## 4. (Opcional) Configuração do zsh
 Zsh (ou Z Shell) é uma versão estendida do bash, com diversas novas funções, além de suportar plugins e temas. Como é baseado no bash, ele tem todas as mesmas funções, e para trocar entre eles basta uma linha de comando.
 
 Para instalar no ubuntu, basta executar:
