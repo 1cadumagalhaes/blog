@@ -181,6 +181,10 @@ div#main_content_wrap {
   color: #9cdcfe;
 }
 
+.highlight .kc, .highlight .kc::selection {
+  color: #569cd6;
+}
+
 .btn-code {
   position: absolute!important;
   right: 2%;
@@ -194,4 +198,8 @@ pre.highlight {
   background-color: #ccc;
   color: white;
 }
-      
+
+
+ul {
+  list-style-type: square!important;
+}
