@@ -182,5 +182,16 @@ div#main_content_wrap {
 }
 
 .btn-code {
-  float: right
+  position: absolute!important;
+  right: 2%;
 }
+
+pre.highlight {
+  max-width: 93%;
+}
+
+::selection {
+  background-color: #ccc;
+  color: white;
+}
+      
