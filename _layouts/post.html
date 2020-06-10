@@ -113,7 +113,7 @@
   <script>
     
     // get all <code> elements
-    var allCodeBlocksElements = $("code");
+    var allCodeBlocksElements = $(".highlight code");
 
     allCodeBlocksElements.each(function (i) {
       // add different id for each code block
@@ -123,11 +123,11 @@
       $(this).attr('id', currentId);
 
       //trigger
-      var clipButton = '<button class="btn" data-clipboard-target="#' + currentId + '"><img src="https://clipboardjs.com/assets/images/clippy.svg" width="13" alt="Copy to clipboard"></button>';
-      $(this).after(clipButton);
+      var clipButton = '<button class="waves-effect waves-teal btn-flat white btn-code" data-clipboard-target="#' + currentId + '"><i class="material-icons">content_copy</i></button>';
+      $(this).before(clipButton);
     });
 
-    new Clipboard('.btn');
+    new ClipboardJS('.btn-code');
   </script>
   {% endif %}
 
