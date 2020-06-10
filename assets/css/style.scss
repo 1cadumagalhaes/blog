@@ -208,3 +208,8 @@ ul:not(.browser-default)>li, ul > li {
   list-style-type: square!important;
   margin-left: 3em;
 }
+
+nav ul:not(.browser-default)>li,
+nav ul>li {
+ list-style-type:none !important;
+}
