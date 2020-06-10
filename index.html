@@ -41,23 +41,24 @@ Sou um nerd estudante de Microeletrônica, amante de ciências e apaixonado por 
       {% endfor %}
     </ul>
   </div>
+  {% assign i = 1 %}
   
+  {% for category in site.categories %} 
+  {% assign i = i | plus: 1 %}
   <div id="test{{ i }}" class="col s12">
     <br>
     <ul>
-      {% assign i = 0 %}
-  
-      {% for category in site.categories %} 
+
       {% for post in category[1] %}
         <li>
           <a href="{{ post.url | replace_first: '/', '/blog/'}}">{{ post.title }}</a>
           {{ post.excerpt }}
         </li>
       {% endfor %}
-      {% endfor %}
+
     </ul>
   </div>
-
+  {% endfor %}
 </div>
 
 
