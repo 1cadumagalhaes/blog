@@ -17,4 +17,4 @@ Hoje eu trabalho como Engenheiro de Dados na DP6, onde atuo principalmente com c
 
 Sou usuário de Linux, desenvolvedor Javascript e venho aprendendo Flutter há algum tempo. Além disso já estudei/trabalhei com python e C#. Gosto de usar javascript puro e não depender de frameworks para front ent.  
 
-Minha ideia é escrever sobre os assuntos que estudo para os meus projetos. Devo escrever sobre windows, linux, javascript, shell scripts, flutter e design. Para encontrar mais sobre mim, basta acessar a página principal do meu github: [magalhaescarlos.github.io](https://magalhaescarlos.github.io)
+Minha ideia é escrever sobre os assuntos que estudo para os meus projetos. Devo escrever sobre windows, linux, javascript, shell scripts, flutter e design. Para encontrar mais sobre mim, basta acessar a página principal do meu github: [1cadumagalhaes.github.io](https://1cadumagalhaes.github.io)
