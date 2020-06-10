@@ -205,6 +205,6 @@ ul {
 }
 
 ul:not(.browser-default)>li, ul > li {
-  list-style-type: square;
+  list-style-type: square!important;
   margin-left: 3em;
 }
