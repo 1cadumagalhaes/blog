@@ -132,21 +132,18 @@ Passo a passo:
    Para mais detalhes sobre como instalar outras versões, basta consultar a [página oficial no github]((https://github.com/nvm-sh/nvm)).
 
 6. Para ver se as instalações funcionarem, execute
-
   ```shell
   node -v
   ```
   {: #code-example-11}
 
 7. Para abrir o vs code a partir desse ambiente, basta executar:
-
 ```shell
   code .
   ```
   {: #code-example-12}
 
-7. Para abrir o explorer e conseguir acessar seus arquivos fora do terminal:
-
+8. Para abrir o explorer e conseguir acessar seus arquivos fora do terminal:
 ```shell
   explorer.exe .
   ```
