@@ -16,7 +16,7 @@ O WSL 2 foi anunciado em Maio de 2019, introduzindo mudanças importantes, como 
 
 Como usuário de Linux, fiquei curioso com esses anúncios e passei a testar essa nova versão, e ver se me atende de forma equivalente ao linux.
 
-![Visual studio code rodando do wsl com terminal](/blog/assets/wsl_code.png)
+![Visual studio code rodando do wsl com terminal](/assets/wsl_code.png)
 
 As principais ferramentas utilizadas no meu dia a dia são: git, node, gcloud, e às vezes python. Algumas outras coisas (flutter, principalmente adb) ainda têm certas limitações.
 
@@ -84,7 +84,7 @@ A versão que estou utilizando é o [Ubuntu 20.04 LTS](https://www.microsoft.com
 
 Após baixar e instalar, é preciso executar a distribuição. Na primeira vez que iniciar, um console será aberto e a instalação vai ser finalizada. Quando acabar, você vai [criar uma conta de usuário e uma senha para sua distro linux](https://docs.microsoft.com/pt-br/windows/wsl/user-support).
 
-![criando conta de usuario no ws](/blog/assets/ubuntuinstall.png)
+![criando conta de usuario no ws](/assets/ubuntuinstall.png)
 
 1. Basta digitar o nome de usuário, que vai ser utilizado para criar a pasta de home do sistema, e pressionar enter.
 2. Em seguida, digite a senha e pressione enter (ao digitar a senha, não vai aparecer nenhum cursor).
@@ -220,7 +220,7 @@ O ohmyzsh também possui vários plugins. Não configurei nenhum no windows, mas
 
 ## 5. (Opcional) Instalação e configuração do windows terminal
 
-![windows terminal personalizado](/blog/assets/wsl_1.png)
+![windows terminal personalizado](/assets/wsl_1.png)
 
 O Windows Terminal foi anunciado no build 2019, e agradou muito a comunidade, pois ele centraliza todos os shell instalados (cmd, powershell, bash) em um só lugar, de forma muito personalizável e fácil de configurar, além de usar GPU pra renderizar. Depois de 1 ano em versão preview, foi [lançada a versão 1.0 no build 2020](https://devblogs.microsoft.com/commandline/windows-terminal-1-0/).
 
@@ -279,5 +279,5 @@ Para configurar a mesma fonte no terminal do vscode:
 2. Vá para as configurações (Ctrl+,)
 3. Pesquise "terminal.font"
 4. Preencha a caixa de texto com "Fira Code"
-![exemplo do vscode](/blog/assets/vscode_terminal.png)
+![exemplo do vscode](/assets/vscode_terminal.png)
 5. Salve as configurações (Ctrl+S)
