@@ -21,7 +21,7 @@ css: blog
     {%assign i = i | plus: 1 %}
     <div class="tab__content">
       {% for post in category[1]%}
-      <a href="{{post.url | replace_first: '/', '/blog/'}}" class="post">
+      <a href="{{post.url}}" class="post">
         <div class="card column justify-around shadow body-bg">
           <h3 class="card-title">{{post.title}}</h3>
           <div class="row">
