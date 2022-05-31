@@ -24,7 +24,7 @@ css: blog
       <a href="{{post.url}}" class="post">
         <div class="card column justify-around shadow body-bg">
           <h3 class="card-title">{{post.title}}</h3>
-          <div class="row">
+          <div class="row tags" style="flex-wrap: wrap;flex-direction: row;">
             {%for tag in post.tags%}
             <div class="tag">{{tag}}</div>
             {%endfor%}
