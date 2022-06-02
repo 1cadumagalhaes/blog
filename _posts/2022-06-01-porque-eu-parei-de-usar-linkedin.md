@@ -4,7 +4,7 @@ title:  "Porque eu parei de usar o LinkedIn"
 date:   2022-06-01 23:00:00 -0300
 permalink: /:categories/:year/:title
 categories: carreira
-tags: vagas "redes sociais"
+tags: vagas redes-sociais
 customcss: sim
 css: blog
 ---

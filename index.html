@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: blog | cadumagalhaes 
+title: blog | cadumagalhaes
 customcss: sim
 css: blog
 ---
@@ -10,12 +10,38 @@ css: blog
 </style>
 <div class="column">
   <div class="tab-wrap">
+    <input type="radio" name="tabGroup" id="tab_todos" class="tab" checked>
+    <label for="tab_todos">todos</label>
+
     {%for category in site.categories %}
+    {{category}}
     {%assign i = i | plus: 1%}
     {%assign cat = category[0]%}
-    <input type="radio" name="tabGroup" id="tab_{{cat}}" class="tab" {%if i==1 %} checked {%endif%}>
+    <input type="radio" name="tabGroup" id="tab_{{cat}}" class="tab">
     <label for="tab_{{cat}}">{{cat}}</label>
     {% endfor %}
+
+    <div class="tab__content">
+      {% for post in site.posts %}
+      <a href="{{post.url}}" class="post">
+        <div class="card column justify-around shadow body-bg">
+          <h3 class="card-title">{{post.title}}</h3>
+          <div class="row tags" style="flex-wrap: wrap;flex-direction: row;">
+            {%for tag in post.tags%}
+            <div class="tag">{{tag}}</div>
+            {%endfor%}
+          </div>
+          {{post.excerpt}}
+          <div class="actions">
+            <div class="action-buttons">
+              <em class="fa fa-arrow-right"></em>
+            </div>
+          </div>
+        </div>
+      </a>
+      {% endfor %}
+    </div>
+
 
     {%for category in site.categories%}
     {%assign i = i | plus: 1 %}
@@ -37,10 +63,7 @@ css: blog
           </div>
         </div>
       </a>
-
-
       {%endfor%}
-
     </div>
 
     {%endfor%}
