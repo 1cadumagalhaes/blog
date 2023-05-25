@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Como configurar o windows para desenvolvimento com WSL 2"
+title:  "[old] Como configurar o windows para desenvolvimento com WSL 2"
 date:   2022-03-15 13:00:00 -0300
 permalink: /:categories/:year/:title
 categories: tutorial
