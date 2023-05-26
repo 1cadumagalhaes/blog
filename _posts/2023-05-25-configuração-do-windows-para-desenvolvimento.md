@@ -9,8 +9,6 @@ customcss: sim
 css: blog
 ---
 
-# Configuração do Windows para desenvolvimento
-
 ## Atualizando um post de alguns anos atrás
 
 No ano passado eu convenci as pessoas do trabalho de que o WSL deveria ser padrão para os Engenheiros de Dados da empresam, para conseguir agilizar o desenvolvimento de soluções (muito porque os computadores vem com windows e da trabalho fazer o setup de linux), mas também porque acredito que é a melhor forma de desenvolver ~~para quem não quer usar linux~~.
