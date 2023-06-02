@@ -425,3 +425,33 @@ alias gconfig="gcloud config configurations"
 ```
 
 Para gerenciar virtual environments, criei o pacote `pyenvs`, que está disponível no [gist do github](https://gist.github.com/1cadumagalhaes/beface90e882be4dc140d169228346db).
+
+### 8. Gerenciamento de pastas e ambientes
+
+Para usar o WSL, é recomendado que todos os arquivos que você vai utilizar estejam dentro do ambiente virtualizado. Ou seja, sempre que for criar um projeto novo (ou clonar um existente), abra o terminal e faça toda a execução dentro da home do seu usuário. Geralmente eu crio uma pasta `Projects` onde centralizo tudo.
+
+```bash
+mkdir Projects && cd Projects
+mkdir exemplo && cd exemplo
+npm init -y && echo "console.log('código de exemplo')">>index.js
+```
+
+Caso queira encontrar a pasta dos seus projetos pelo explorador de arquivos do windows, basta usar o comando abaixo dentro da pasta
+
+```bash
+explorer.exe .
+```
+
+**Dica**: no windows explorer, você pode fixar a pasta do seu wsl no menu lateral.
+
+E por fim, sempre que vou abrir o VS Code eu abro pelo terminal, executando
+
+```bash
+code [caminho da pasta]
+```
+
+## Finalizando
+
+Talvez eu tenha esquecido de deixar alguma configuração, por isso fiquem a vontade para comentar aqui ou me marcar no twitter que eu trago uma atualização.
+
+Espero que isso tenha sido útil para alguém, até a próxima!
