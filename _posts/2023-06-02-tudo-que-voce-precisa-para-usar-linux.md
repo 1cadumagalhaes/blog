@@ -1,4 +1,13 @@
-# Tudo que você precisa saber pra usar Linux
+---
+layout: post
+title:  "Tudo que você precisa saber pra usar Linux"
+date:   2023-06-02 20:40:00 -0300
+permalink: /:categories/:year/:title
+categories: serie
+tags: linux guia
+customcss: sim
+css: blog
+---
 
 Linux é meu sistema operacional principal desde 2019. Complementando o [post da semana passada sobre WSL](https://dev.to/1cadumagalhaes/configuracao-do-windows-para-desenvolvimento-blk), decidi começar essa série de posts ensinando tudo que você precisa saber para conseguir usar Linux, mesmo que dentro do WSL.
 
