@@ -88,7 +88,7 @@ Quando finalizar a instalação, ele vai pedir que você configure o seu UNIX us
 
 ### 6. Atualização de programas
 
-Como estamos instalando uma versão com pouco mais de 1 ano de lançamento, é importante atualizar todos os pacotes. Dentre as atualizações, estão algumas atualizações de segurança do kernel Linux. 
+Como estamos instalando uma versão com pouco mais de 1 ano de lançamento, é importante atualizar todos os pacotes. Dentre as atualizações, estão algumas atualizações de segurança do kernel Linux.
 
 ```bash
 sudo apt update && sudo apt upgrade -y
@@ -106,7 +106,7 @@ touch ~/.hushlogin
 
 ## Configuração do Windows Terminal
 
-O Windows Terminal é um aplicativo de terminal bem satisfatório. Ele permite abrir várias abas, mesmo de tipos diferentes (como cmd, powershell, e qualquer distro de wsl), além de ser bem rápido e customizável. 
+O Windows Terminal é um aplicativo de terminal bem satisfatório. Ele permite abrir várias abas, mesmo de tipos diferentes (como cmd, powershell, e qualquer distro de wsl), além de ser bem rápido e customizável.
 
 Vamos começar abrindo as configurações (`Ctrl + ,` ).
 
@@ -412,7 +412,7 @@ O motivo para usar o Podman ao invés do Docker é que a instalação do docker 
 
 Geralmente eu crio um arquivo `~/.profile` , que deixo salvo como backup no meu github.
 
-Basta criar o arquivo com suas funções, variáveis e apelidos. E depois acrescentar o comando `source ~/.profile` no fim do seu `.zshrc` 
+Basta criar o arquivo com suas funções, variáveis e apelidos. E depois acrescentar o comando `source ~/.profile` no fim do seu `.zshrc`
 
 Eu costumo criar pastas para centralizar minhas service accounts e meus virtual environments de python, por isso tenho alguns comandos que fiz para facilitar
 

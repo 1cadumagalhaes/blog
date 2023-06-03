@@ -13,11 +13,11 @@ Linux é meu sistema operacional principal desde 2019. Complementando o [post da
 
 ## Tudo que eu preciso saber sobre?
 
-Meu objetivo aqui é simples: prover toda informação disponível para você (desenvolvedor) começar e conseguir usar a ferramenta da vez. Não pretendo responder tudo que você **********pode********** ou **************deveria************** saber, apenas o necessário. 
+Meu objetivo aqui é simples: prover toda informação disponível para você (desenvolvedor) começar e conseguir usar a ferramenta da vez. Não pretendo responder tudo que você **pode** ou **deveria** saber, apenas o necessário.
 
 ## O que é Linux
 
-De forma geral, Linux é usado pra descrever os sistemas operacionais que são baseados no Kernel Linux, mas não vamos entrar em detalhe aqui. Podemos considerar como um ********tipo******** ou ****************conjunto**************** de sistemas operacionais, cujo princípio está no kernel que é de código aberto. Por isso, toda distribuição Linux também é de código aberto. E
+De forma geral, Linux é usado pra descrever os sistemas operacionais que são baseados no Kernel Linux, mas não vamos entrar em detalhe aqui. Podemos considerar como um **tipo** ou **conjunto** de sistemas operacionais, cujo princípio está no kernel que é de código aberto. Por isso, toda distribuição Linux também é de código aberto.
 
 ## Quando eu deveria usar Linux?
 
@@ -25,11 +25,11 @@ Minha resposta pessoal é que todos deveriam testar sistemas operacionais difere
 
 ### 1. O sistema é Open Source
 
-O fato de ser de código aberto significa que a comunidade pode contribuir ativamente com o desenvolvimento, resolver bugs, encontrar falhas, e principalmente estender o sistema para as próprias necessidades. 
+O fato de ser de código aberto significa que a comunidade pode contribuir ativamente com o desenvolvimento, resolver bugs, encontrar falhas, e principalmente estender o sistema para as próprias necessidades.
 
 ### 2. Personalização
 
-Vou mencionar brevemente mais tarde, mas existem milhares de sistemas diferentes baseados em Linux. Os sistemas podem ter diferenças na arquitetura, no sistema de arquivos, no gerenciamento de pacotes, no tipo de interface gráfica, na disposição dos elementos da UI, nos softwares que já vem instalados. 
+Vou mencionar brevemente mais tarde, mas existem milhares de sistemas diferentes baseados em Linux. Os sistemas podem ter diferenças na arquitetura, no sistema de arquivos, no gerenciamento de pacotes, no tipo de interface gráfica, na disposição dos elementos da UI, nos softwares que já vem instalados.
 
 O ecossistema Linux é tão rico porque os usuários (e desenvolvedores) não satisfeitos com a forma como usam seus computadores resolvem fazer as alterações que melhoram suas experiências.
 
@@ -57,7 +57,7 @@ Linux é o sistema mais utilizado para servidores, basicamente pelos motivos cit
 
 Bom, se você é desenvolvedor, um bom começo é o WSL, que já expliquei como configurar na semana passada. Dentro do WSL você vai ter um terminal (que é basicamente o que teria acesso num servidor), e apesar de usuários comuns não precisarem abrir a linha de comando para nada (dependendo do sistema que estiverem usando), conhecer as ferramentas de linha de comando pode ser bem importante.
 
-Se você quer somente testar, você pode escolher qualquer distribuição Linux, criar um USB bootável com uma instalação do sistema e começar a usar. Isso não vai mexer com a instalação do seu windows e não vai alterar nenhum arquivo no seu sistema, de forma que você pode fazer isso em praticamente qualquer computador. 
+Se você quer somente testar, você pode escolher qualquer distribuição Linux, criar um USB bootável com uma instalação do sistema e começar a usar. Isso não vai mexer com a instalação do seu windows e não vai alterar nenhum arquivo no seu sistema, de forma que você pode fazer isso em praticamente qualquer computador.
 
 Minha recomendação é começar com qualquer variação de Ubuntu, que por ser o sistema mais utilizado é o que tem a maior comunidade e suporte. Eu particularmente uso o PopOS, mas você pode pesquisar por “ubuntu flavours” e escolher o que achar mais bonito. Se quiser uma experiência mais próxima do que se tem com o Windows, o Zorin OS pode ser uma boa escolha.
 
@@ -109,7 +109,7 @@ Perguntas frequentes
 
 **Nunca** - sério, nunca - **saia copiando comandos de fontes não oficiais sem entender exatamente o que está fazendo.** Mesmo em tutoriais oficiais de instalação de ferramentas, leia os comandos antes de copiar e executar no seu computador. A linha de comando é uma ferramenta muito poderosa, e a partir do momento em que você da permissão (ao executar algo com sudo, por ex), qualquer alteração pode ser feita.
 
-Se não souber o que um comando faz, você pode usar o site [https://explainshell.com/](https://explainshell.com/), que explica todos os pedaços de um comando. 
+Se não souber o que um comando faz, você pode usar o site [https://explainshell.com/](https://explainshell.com/), que explica todos os pedaços de um comando.
 
 Além disso, sempre leia o que está escrito no terminal antes de confirmar qualquer coisa. Eu sempre gosto de dar o exemplo do vídeo [Linux HATES ME do canal Linus Tech Tips](https://www.youtube.com/watch?v=0506yDSgU7M), onde ele tentou fazer um desafio de usar Linux por 30 dias. Nos primeiros minutos de utilização ele tentou instalar a Steam, e quando não conseguiu recorreu a linha de comando. O terminal explicou que ele estava fazendo algo que iria danificar o sistema e pediu para ele digitar uma frase inteira como confirmação, e ainda assim ele confirmou. Depois disso o sistema não abriu mais. (basicamente ele tentou a instalação num dia em que a Valve subiu um pacote corrompido de instalação da steam, e o sistema tentou fazer de tudo pra que ele não instalasse)
 
