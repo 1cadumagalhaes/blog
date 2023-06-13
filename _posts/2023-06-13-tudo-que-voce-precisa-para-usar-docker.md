@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Tudo que você precisa saber pra usar Docker"
-date:   2023-06-13 17:00:00 -0300
+date:   2023-06-13 11:40:00 -0300
 permalink: /:categories/:year/:title
 categories: serie
 tags: docker guia
@@ -13,7 +13,8 @@ De forma muito simplificada, Docker (a plataforma\*) é um software open source 
 Outra forma de resumir é dizer que é um dos softwares que tem o objetivo de evitar o clichê do
 
 > Na minha máquina funciona.
-*\* Docker pode ser o projeto, a ferramenta/plataforma, a empresa. Aqui vamos falar sobre a ferramenta*
+
+- \* Docker pode ser o projeto, a ferramenta/plataforma, a empresa. Aqui vamos falar sobre a ferramenta*
 
 Vou deixar alguns exemplos específicos de Node e Python, mas no geral esse post é feito para quem já sabe desenvolver ou já tem uma aplicação pronta, e quer colocar ela para rodar em contêineres.
 
