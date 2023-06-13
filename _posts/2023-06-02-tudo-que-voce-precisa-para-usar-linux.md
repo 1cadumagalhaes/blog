@@ -39,7 +39,7 @@ A comunidade Linux é incrivelmente ativa. Acho que muito por necessidade, visto
 
 E graças a comunidade, muitos dos problemas comuns acabam virando um pacote (basicamente um programa), que na maioria das vezes é distribuido gratuitamente, e tem seu código aberto. Mesmo quando as marcas (logitech por exemplo, mas a lista é imensa) escolhem não oferecer suporte dos seus dispositivos ou - dos softwares que vem com eles -  para Linux, existem grandes chances de você encontrar uma opção (para dispositivos sem fio da logitech por exemplo, deixo a recomendação do [Solaar](https://pwr-solaar.github.io/Solaar/devices.html), que não só é um software mais leve que o oficial, mas que oferece a maioria das opções disponíveis e ainda tem um ícone na barra de tarefas com a carga da bateria, e manda notificações quando está acabando)
 
-![Notificação do programa Solaar](./../assets/solaar.png)
+![Notificação do programa Solaar](../../assets/solaar.png)
 
 ### 4. Segurança
 

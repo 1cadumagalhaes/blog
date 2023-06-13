@@ -26,7 +26,7 @@ Meu objetivo aqui é simples: prover toda informação disponível para você (d
 
 ## O que é Docker
 
-![Docker Logo](../assets/docker_moby_logo.png)
+![Docker Logo](../../assets/docker_moby_logo.png)
 
 Docker é uma plataforma de virtualização por **contêiner**, que permite empacotar e executar aplicativos de forma **isolada** do sistema operacional.
 
