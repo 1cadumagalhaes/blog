@@ -44,9 +44,9 @@ Mas respondendo de forma mais completa, os principais motivos para usar contêin
 
 ### 1. Fazer uma aplicação com objetivo de publicar
 
-Para resolver uma lista de exercícios de lógica de programação da faculdade usando conteineres, seria um pouco de exagero (mas é possível).
+Para resolver uma lista de exercícios de lógica de programação da faculdade usando contêineres, seria um pouco de exagero (mas é possível).
 
-Mas toda vez que você estiver trabalhando em uma aplicação - um site, ou uma api por exemplo - que eventualmente vai ser publicada de alguma forma, encapsular em conteineres vai facilitar muito a sua vida na hora de fazer a implantação (ou *deploy*).
+Mas toda vez que você estiver trabalhando em uma aplicação - um site, ou uma api por exemplo - que eventualmente vai ser publicada de alguma forma, encapsular em contêineres vai facilitar muito a sua vida na hora de fazer a implantação (ou *deploy*).
 
 Isso porque o isolamento garante que todas as dependências utilizadas - e aqui podemos considerar pacotes (do npm ou do pip, por exemplo), programas disponíveis no sistema operacional ou até arquivos - estarão disponíveis quando chegar a hora da implantação.
 
