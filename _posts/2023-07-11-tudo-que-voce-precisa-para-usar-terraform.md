@@ -1,8 +1,15 @@
-# Tudo que você precisa saber sobre Terraform
+---
+layout: post
+title:  "Tudo que você precisa saber pra usar Terraform"
+date:   2023-07-11 17:40:00 -0300
+permalink: /:categories/:year/:title
+categories: serie
+tags: terraform guia
+customcss: sim
+css: blog
+---
 
 ![Logo oficial do terraform](../assets/terraform_hashicorp.png)
-
-## Intro
 
 Terraform é uma ferramenta open source desenvolvida para facilitar a criação, gerenciamento e a automatização da **infraestrutura como código** (que vamos chamar de IAC, da sigla *infra as code)*. Sua principal vantagem é que você escreve a sua infraestrutura de forma declarativa, e a ferramenta fica responsável por implementar seus recursos de maneira consistente.
 
